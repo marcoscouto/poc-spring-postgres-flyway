@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://127.0.0.1:5432/tasks"
+    username: "root"
+    password: "root"
+  flyway:
+    url: "${spring.datasource.url}"
+    user: "${spring.datasource.username}"
+    password: "${spring.datasource.password}"
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+
