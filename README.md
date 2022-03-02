@@ -1,4 +1,4 @@
-# JPA SQL Example
+# JPA SQL FLYWAY Example
 
 ## Required
 
